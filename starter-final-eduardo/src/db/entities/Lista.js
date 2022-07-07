@@ -1,3 +1,6 @@
+import 'reflect-metadata'
+import { Resolver, Query, Ctx, InputType, Field, Arg } from 'type-graphql';
+import { Pendientes } from '.';
 const express = require('express')
 const {PrismaClient} = require('@prisma/client')
 
